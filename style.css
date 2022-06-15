@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    height: 122px;
+    width: 100%;
+
+}
+header .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+header .menu-options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+header .nav-menu .logo img {
+    height: 100%;
+    width: 100%;
+}
+header .nav-menu .logo{
+    height: 100%;
+    width: 245px ;
+    margin: 10px 20px;
+
+}
+header .menu-options p{
+    font-size: 20px;
+    color: #777777;
+    margin: 0 5px;
+    text-align: center;
+}
+
+
+main .whitefund{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .whitefund .banner{
+    width: 100%;
+    height: 100%;
+    margin: 0 0 20px;
+}
+main .whitefund .banner img{
+    width: 100%;
+    height: 100%;
+}
+main .whitefund h1 {
+font-size: 60px;
+font-weight: 800;
+line-height: 82px;
+letter-spacing: 0em;
+text-align: center;
+margin: 20px 0 ;
+
+}
+main .whitefund .fotos-diffsize{
+
+    margin: 20px 0px ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main .whitefund .fotos-diffsize img{
+    margin: 0 20px;
+}
+
+
+main .pinkfund{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #C2185B;
+}
+main .pinkfund .frase-destaque{
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin:50px 10px;
+
+}
+main .pinkfund .sapatos{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 90px 100px;
+
+
+}
+main .pinkfund .sapatos .sapato-fino{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 388px;
+    margin: 0 20px ;
+}
+.whitebox{
+    display: flex;
+    flex-direction: column;
+    height: 88px;
+    justify-content: center;
+    margin-left: 10px;
+
+}    
+main .pinkfund .whitebox .text {
+
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.w600{
+    font-weight: 600;
+}
+.w400{
+    font-weight: 400;
+
+}
+
+main .whitefund-2{
+    width: 100%;
+
+}
+main .whitefund-2 .container-white{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    margin: 50px 0;
+
+}
+main .whitefund-2 .container-white .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin: 0px 30px;
+}
+main .whitefund-2 .container-white .left .text{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    color: #000000;
+    font-size: 39px;
+}
+main .whitefund-2 .container-white .left .btn{
+    background-color: #C2185B;
+    height: 100px;
+    align-self: flex-start;
+    border: none;
+    text-align: center;
+    font-size: 39px;
+    color: #FFFFFF;
+    margin: 30px 0 0;
+    padding: 20px 60px;
+
+}
+main .whitefund-2 .container-white .left .imgfoot{
+    margin: 30px 0 0 ;
+}
+
+.container-footer{
+    background-color: #C2185B;
+    display: flex;
+    justify-content: space-around;
+    height: 248px;
+    width: 100vw;
+
+}
+.img-lorem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30vw;
+}
+
+.img-lorem p{
+    color: white;
+    font-size: 14px;
+}
+
+.logo-footer{
+    height: 50%;
+}
+.lista{
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: white;
+    height: 100%;
+
+    
+}
+.item{
+    font-size: 16px;
+}
+
+@media (max-width:700px) {
+
+.container-white .sapatos .whitefund{
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+}
+
