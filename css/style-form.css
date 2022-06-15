@@ -1,8 +1,44 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
+header{
+    height: 122px;
+    width: 100%;
+
+}
+header .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+header .menu-options{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+header .nav-menu .logo img {
+    height: 100%;
+    width: 100%;
+}
+header .nav-menu .logo{
+    height: 100%;
+    width: 245px ;
+    margin: 10px 20px;
+
+}
+header .menu-options p{
+    font-size: 20px;
+    color: #777777;
+    margin: 0 5px;
+    text-align: center;
+}
+
 
 main section{
     display: flex;
