@@ -5,7 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 header{
-    height: 122px;
+    height: 100px;
     width: 100%;
 
 }
@@ -21,6 +21,7 @@ header .menu-options{
     justify-content: space-around;
     align-items: center;
     height: 100%;
+    margin: 50px;
 }
 header .nav-menu .logo img {
     height: 100%;
@@ -54,19 +55,29 @@ main section .left{
     justify-content: space-around;
     width: 100%;
     height: 100%;
-    margin: 10px;
+    margin: 20px 50px;
 }
+main section .left h1{
+    margin: 20px 0px;
+}
+
 main section .left form{
     display: flex;
     flex-direction: column;
-
 }
+main section .left form input{
+    margin:4px 0px;
+}
+main section .left form p{
+    margin:4px 0px;
+}
+
 main section .left .disp-options{
     display: flex;
-    justify-content: space-between;
-    margin: 5px 20px;
+    justify-content: center;
     align-items: center;
 }
+
 main section .left .contact-options{
     display: flex;
     justify-content: space-between;
@@ -85,6 +96,21 @@ main section .right {
     justify-content: space-between;
     width: 100%;
     height: 320px;
-    margin: 10px;
+    margin: 50px;
+}
+
+div.bannerfixo{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:  #C2185B ;
+    color: white;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
